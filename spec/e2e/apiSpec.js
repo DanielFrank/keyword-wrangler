@@ -11,8 +11,7 @@ describe('The API', function() {
         {'id': 1, 'value': 'Aubergine', 'categoryID': 1},
         {'id': 2, 'value': 'Onion', 'categoryID': 1},
         {'id': 3, 'value': 'Knife', 'categoryID': 2}
-      ],
-      _links : { parent : { href : 'http://127.0.0.1:4444/api' } }
+      ]
     };
 
     async.series(
