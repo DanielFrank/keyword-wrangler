@@ -1,0 +1,17 @@
+{
+  "test": {
+    "driver": "sqlite3",
+    "filename": "/var/tmp/keyword-wrangler.test.sqlite"
+  },
+  "dev": {
+    "driver": "sqlite3",
+    "filename": "/var/tmp/keyword-wrangler.test.sqlite"
+  },
+  "production": {
+    "driver": "mysql",
+    "host": "127.0.0.1",
+    "user": "nami",
+    "password": "pot2trot",
+    "database": "keyword_wrangler"
+  }
+}
